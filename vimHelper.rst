@@ -48,6 +48,7 @@ Cut, copy & paste
     yy 	Copy current line
     y$ 	Copy to end of line
     D 	Cut to end of line
+    :r <filename> insert file contens after cursor
 
 
 Search
@@ -140,6 +141,7 @@ File explorer
     :browse e 	Graphical file explorer
     :ls 	List buffers
     :cd .. 	Move to parent directory
+    :cd %:h Move to directory of current file
     :args 	List files
     :args *.php 	Open file list
     :grep expression *.php 	Returns a list of .php files contening expression
