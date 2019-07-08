@@ -1,3 +1,3 @@
-# notes about shell / bash items 
+# notes about ansible items 
 
 **add notes here**
