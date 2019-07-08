@@ -1,12 +1,8 @@
-================
-VIM helper 
-================
+# VIM helper 
 
-Basics
--------
+## Basics
 
-.. code-block:: vim
-
+```vim
     :e filename 	Open filename for edition
     :w 	Save file
     :q 	Exit Vim
@@ -15,9 +11,10 @@ Basics
     :sav filename 	Saves file as filename
     . 	Repeats the last change made in normal mode
     5. 	Repeats 5 times the last change made in normal mode
+```
 
-Moving in the file
----------------------
+
+## Moving in the file
 
 .. code-block:: vim
 
@@ -37,8 +34,7 @@ Moving in the file
     [{ 	Jump to block start
 
 
-Cut, copy & paste
--------------------
+## Cut, copy & paste
 
 .. code-block:: vim
 
@@ -51,8 +47,7 @@ Cut, copy & paste
     :r <filename> insert file contens after cursor
 
 
-Search
----------
+## Search
 
 .. code-block:: vim
 
@@ -72,8 +67,8 @@ Search
     :bufdo /searchstr/ 	Search in all open files bufdo 
     %s/something/somethingelse/g 	Search something in all the open buffers and replace it with somethingelse
 
-Replace
-------------
+## Replace
+
 
 .. code-block:: vim 
 
@@ -99,8 +94,8 @@ Replace
     Ctrl+x 	Decrement number under cursor
     ggVGg? 	Change text to Rot13
 
-Case
-------
+## Case
+
 
 .. code-block:: vim 
 
@@ -118,8 +113,8 @@ Case
     :%s/.*/\u& 	Sets first letter of each line to uppercase
     :%s/.*/\l& 	Sets first letter of each line to lowercase
 
-Read/Write files
--------------------
+## Read/Write files
+
 
 .. code-block:: vim 
 
@@ -129,8 +124,8 @@ Read/Write files
     :23r infile 	Insert the content of infile under line 23
 
 
-File explorer
----------------
+## File explorer
+
 
 .. code-block:: vim 
 
@@ -148,8 +143,8 @@ File explorer
     gf 	Open file name under cursor
 
 
-Interact with Unix
----------------------
+## Interact with Unix
+
 
 .. code-block:: vim 
 
@@ -158,8 +153,8 @@ Interact with Unix
     :sh 	Temporary returns to Unix
     $exit 	Retourns to Vi
 
-Alignment
----------------
+## Alignment
+
 
 .. code-block:: vim
 
@@ -167,8 +162,8 @@ Alignment
     !}fmt 	Align all lines at the current position
     5!!fmt 	Align the next 5 lines
 
-Tabs/Windows
-----------------
+## Tabs/Windows
+
 
 .. code-block:: vim
 
@@ -181,8 +176,8 @@ Tabs/Windows
     :tab ball 	Puts all open files in tabs
     :new abc.txt 	Edit abc.txt in new window
 
-Window spliting
--------------------
+## Window spliting
+
 
 .. code-block:: vim
 
@@ -200,8 +195,8 @@ Window spliting
     :­nly 	Close all windows, excepted current
     :b 2 	Open #2 in this window
 
-Auto-completion
-----------------------
+## Auto-completion
+
 
 .. code-block:: vim 
 
@@ -210,8 +205,8 @@ Auto-completion
     :set dictionary=dict 	Define dict as a dictionnary
     Ctrl+x Ctrl+k 	Complete with dictionnary
 
-Marks
------------
+## Marks
+
 
 .. code-block:: vim 
 
@@ -219,8 +214,8 @@ Marks
     ' {a-z} 	Move to position {a-z}
     '' 	Move to previous position
 
-Abbreviations
----------------
+## Abbreviations
+
 
 .. code-block:: vim 
 
@@ -235,8 +230,8 @@ Abbreviations
     =% 	Indent the code between parenthesis
     1GVG= 	Indent the whole file
 
-Syntax highlighting
-----------------------
+## Syntax highlighting
+
 
 .. code-block:: vim 
 
